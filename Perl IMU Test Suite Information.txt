@@ -1,0 +1,222 @@
+Get ActiveState perl at R:\Tools\Perl
+
+Execute the ActivePerl-5.16.3.1603-MSWin32-x86-296746.msi file in that directory;
+
+If you have a 64 bit machine, use the http://www.activestate.com/activeperl website and download that version;
+
+
+Perl Package Manager (PPM) is a gui utility to download pwerl packages. It is part of the activestate perl distribution.
+
+using PPM -install 
+
+Win32::SerialPort
+Time::Piece
+Time::HiRes
+Text::CSV_XS
+File::Copy
+File::Compare
+IO::Handle
+Cwd
+File::Spec
+Readonly
+Archive::Zip
+Const::Fast
+
+There is no Win32::SerialPort package for 64 bit, so use the 32 bit version and the force flag if necessary. The instructions on downloading and building the package are here:
+
+http://search.cpan.org/~bbirth/Win32-SerialPort-0.22/
+
+
+
+To run the test script;
+
+Copy the Fog Test Suite folder to a directory on the PC which will be used for testing
+Note it includes the follwing files:
+
+BitErrors.pl
+BitErrorValues.pl
+Configtypes.pl
+SetImuSysConfig.pl
+TestDspImu.pl
+testSequence.txt
+FOGTest.bat
+Command Prompt
+
+Note it includes the follwing folders:
+TestResultArchive
+TestFilterFiles
+
+
+Use the COM port connected to the device; it is advisable to check COM port connection to the device using putty, hyperterm, or realterm;
+
+Open the command window:
+
+To get the help menu:
+
+   perl TestDspImu.pl COM4 -HM  
+
+
+To run all of the standartd tests:   perl TestDspImu.pl COM4
+
+
+To run the testfilt command:   perl TestDspImu.pl COM4 -TF Note: This test takes a few hours to complete
+
+
+To run the TestBit command:   perl TestDspImu.pl COM4 -BIT Note: This test takes about 45 minutes to complete
+ 
+
+To run an individual test, use the help menu to determine the mnemonic:
+
+Example: To test just the software version test:   perl TestDspImu.pl COM4 -W
+
+
+To run all available tests (Standard, testfilt, TestBit) for all device types automatically overnight for Jenkins software verification or new software release verification: 
+
+Edit the FOGTest.bat file to update the comm port to the correct number for each command line in the file
+
+Make sure you are connected to a FOG IMU device (1775, 1750, 1725).
+
+Run the FOGTest.bat file. It will test each of the 10 varients of the 1775 board based FOG devices (IMUs DSPs IRS); Note: This test will take 12 to 15 hours to complete
+  
+
+The new test directory generated will use the device type and the date to form the directory name and create it in the TestResultArchive folder;
+Note: a .zip file of the test results will also be generated.
+
+For Example:
+1750IMU_10_17_2014_15_33_31 is the directory of the test as it is a 1750IMU and the date of the test is 10-17-2014 at 3:33:31 (H:M:S) 
+
+ 
+The tests will generate the following files in the test directory and .zip file if all the tests are run:
+
+For a 1750 IMU with only one format
+ 
+IMU_1750IMU_10_20_2014_10_5_14.csv    	- CSV file with results of the test
+testHelpConfig.txt		- Text File with dump of the Help menu in CONFIG mode
+testHelpDebug.txt		- Text File with dump of the Help menu in DEBUG mode
+testNormalA.txt			- Text File with hex dump of the FORMAT A in Normal Mode
+testNormalBIT.txt               - Text File with hex dump of the FORMAT A BIT in Normal Mode    
+testFailedResults.txt		- Text file with a list of all tests that failed
+
+For a 1775 IMU 
+ 
+IMU_1775IMU_10_17_2014_15_30_9.csv    	- CSV file with results of the test
+testHelpConfig.txt		- Text File with dump of the Help menu in CONFIG mode
+testHelpDebug.txt		- Text File with dump of the Help menu in DEBUG mode
+testNormalA.txt			- Text File with hex dump of the FORMAT A in Normal Mode
+testNormalB.txt			- Text File with hex dump of the FORMAT B in Normal Mode
+testNormalC.txt			- Text File with hex dump of the FORMAT C in Normal Mode
+testNormalBIT.txt               - Text File with hex dump of the FORMAT A BIT in Normal Mode    
+testFailedResults.txt		- Text file with a list of all tests that failed
+
+Same test file format applies to the DSP and IRS series of products, with the applicable files being generated based upon the device type
+
+The tests will generate the following files in the test directory if the testsfilts command tests are run:
+
+Notes: There are individual text files generated for the testfilt command that capture the Accel and Gyros samples; 
+
+Each of these text files will generate seperate xlsx files based on the filter type and the data rate;
+
+For example, the IMU1775_Avg_10.txt file is generatred from the testfilt command;
+That file will be used to generate the IMU1775_Avg_10_accel.xlsx and 
+IMU1775_Avg_10_gyro.xlsx
+
+
+Files in TestFilterFiles folder are as follows:
+
+
+1725IMUAvg10.txt
+1725IMUAvg1000.txt
+1725IMUButter10.txt
+1725IMUButter100.txt
+1725IMUButter1000.txt
+1725IMUButter5.txt
+1725IMUButter50.txt
+1725IMUCheby10.txt
+1725IMUCheby100.txt
+1725IMUCheby1000.txt
+1725IMUCheby5.txt
+1725IMUCheby50.txt
+1775IMUAvg10.txt
+1775IMUAvg1000.txt
+1775IMUButter,1,5.txt
+1775IMUButter,2,50.txt
+1775IMUButter,3,100.txt
+1775IMUButter,4,200.txt
+1775IMUButter,5,300.txt
+1775IMUButter,6,400.txt
+1775IMUButter,7,1000.txt
+1775IMUButter,8,2500.txt
+1775IMUButter10.txt
+1775IMUButter100.txt
+1775IMUButter1000.txt
+1775IMUButter3600.txt
+1775IMUButter5.txt
+1775IMUButter50.txt
+1775IMUButter5000.txt
+1775IMUCheby,1,0.1,5.txt
+1775IMUCheby,2,0.03,50.txt
+1775IMUCheby,3,0.01,100.txt
+1775IMUCheby,4,0.003,200.txt
+1775IMUCheby,5,0.001,300.txt
+1775IMUCheby,6,0.001,400.txt
+1775IMUCheby,7,0.01,1000.txt
+1775IMUCheby,8,0.01,2500.txt
+1775IMUCheby10.txt
+1775IMUCheby100.txt
+1775IMUCheby1000.txt
+1775IMUCheby3600.txt
+1775IMUCheby5.txt
+1775IMUCheby50.txt
+1775IMUCheby5000.txt
+DSP1760Avg10.txt
+DSP1760Avg1000.txt
+DSP1760Butter10.txt
+DSP1760Butter100.txt
+DSP1760Butter1000.txt
+DSP1760Butter5.txt
+DSP1760Butter50.txt
+DSP1760Cheby10.txt
+DSP1760Cheby100.txt
+DSP1760Cheby1000.txt
+DSP1760Cheby5.txt
+DSP1760Cheby50.txt
+DSPUButter,1,5.txt
+DSPUButter,2,50.txt
+DSPUButter,3,100.txt
+DSPUButter,4,200.txt
+DSPUButter,5,300.txt
+DSPUButter,6,400.txt
+DSPUButter,7,1000.txt
+DSPUButter,8,2500.txt
+DSPUCheby,1,0.1,5.txt
+DSPUCheby,2,0.03,50.txt
+DSPUCheby,3,0.01,100.txt
+DSPUCheby,4,0.003,200.txt
+DSPUCheby,5,0.001,300.txt
+DSPUCheby,6,0.001,400.txt
+DSPUCheby,7,0.01,1000.txt
+DSPUCheby,8,0.01,2500.txt
+IRSAvg10.txt
+IRSAvg1000.txt
+IRSButter10.txt
+IRSButter100.txt
+IRSButter1000.txt
+IRSButter3600.txt
+IRSButter5.txt
+IRSButter50.txt
+IRSButter5000.txt
+IRSCheby10.txt
+IRSCheby100.txt
+IRSCheby1000.txt
+IRSCheby3600.txt
+IRSCheby5.txt
+IRSCheby50.txt
+IRSCheby5000.txt
+
+
+
+
+
+
+
+

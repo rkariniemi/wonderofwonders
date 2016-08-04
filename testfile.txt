@@ -1,0 +1,5900 @@
+Test DATE = 08/03/2016 time = Wed Aug  3 13:00:07 2016
+Test Software = TestDspImu.pl
+Test Software Version = XA Revision = 0.21
+Test Case Selection = -BIT
+Debug result = DEBUG,1
+
+DEBUG Set, Passed,,
+=dr,50 Test Passed DR,50
+
+
+1750 IMU
+ICB DSP Rev G Version: 2.31
+ICB FPGA Rev: 0x05
+GCB DSP Rev Rate Version: 1.0x
+GCB FPGA Rev: E
+
+DBG>,
+?is Test Serial # = 1306K006 Passed
+
+ ################## Debug Mode Tests ##################
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 0 in word1 0x00  is zero
+FAILED_GYRO_X_SLD
+BIT Test Error Word Passed
+
+Bit 1 in word1 0x00  is zero
+FAILED_GYRO_X_MODDAC
+BIT Test Error Word Passed
+
+Bit 2 in word1 0x00  is zero
+FAILED_GYRO_X_PHASE
+BIT Test Error Word Passed
+
+Bit 3 in word1 0x00  is zero
+FAILED_GYRO_X_COMMS
+BIT Test Error Word Passed
+
+Bit 4 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD
+BIT Test Error Word Passed
+
+Bit 5 in word1 0x00  is zero
+FAILED_GYRO_Y_MODDAC
+BIT Test Error Word Passed
+
+Bit 6 in word1 0x00  is zero
+FAILED_GYRO_Y_PHASE
+BIT Test Error Word Passed
+
+Bit 7 in word1 0x00  is zero
+RESERVED_0 
+Bit 8 in word1 0x00  is zero
+FAILED_GYRO_Y_COMMS
+BIT Test Error Word Passed
+
+Bit 9 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD
+BIT Test Error Word Passed
+
+Bit 10 in word1 0x00  is zero
+FAILED_GYRO_Z_MODDAC
+BIT Test Error Word Passed
+
+Bit 11 in word1 0x00  is zero
+FAILED_GYRO_Z_PHASE
+BIT Test Error Word Passed
+
+Bit 12 in word1 0x00  is zero
+FAILED_GYRO_Z_COMMS
+BIT Test Error Word Passed
+
+Bit 13 in word1 0x00  is zero
+FAILED_ACCEL_X
+BIT Test Error Word Passed
+
+Bit 14 in word1 0x00  is zero
+FAILED_ACCEL_Y
+BIT Test Error Word Passed
+
+Bit 15 in word1 0x00  is zero
+RESERVED_1 
+Bit 16 in word1 0x00  is zero
+FAILED_ACCEL_Z
+BIT Test Error Word Passed
+
+Bit 17 in word1 0x00  is zero
+FAILED_GYRO_X_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 18 in word1 0x00  is zero
+FAILED_GYRO_X_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 19 in word1 0x00  is zero
+FAILED_GYRO_Y_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 20 in word1 0x00  is zero
+FAILED_GYRO_Y_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 21 in word1 0x00  is zero
+FAILED_GYRO_Z_BOBBIN_TEMP
+BIT Test Error Word Passed
+
+Bit 22 in word1 0x00  is zero
+FAILED_GYRO_Z_SLD_TEMP
+BIT Test Error Word Passed
+
+Bit 23 in word1 0x00  is zero
+RESERVED_2 
+Bit 24 in word1 0x00  is zero
+FAILED_ACCEL_X_TEMP
+BIT Test Error Word Passed
+
+Bit 25 in word1 0x00  is zero
+FAILED_ACCEL_Y_TEMP
+BIT Test Error Word Passed
+
+Bit 26 in word1 0x00  is zero
+FAILED_ACCEL_Z_TEMP
+BIT Test Error Word Passed
+
+Bit 27 in word1 0x00  is zero
+FAILED_GCB_TEMP
+BIT Test Error Word Passed
+
+Bit 28 in word1 0x00  is zero
+FAILED_ICB_TEMP
+BIT Test Error Word Passed
+
+Bit 29 in word1 0x00  is zero
+FAILED_GCB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 30 in word1 0x00  is zero
+FAILED_GCB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 31 in word1 0x00  is zero
+RESERVED_3 
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+TestWord1 =  TestWord2 = 
+GetBITPacket: TestPacket = fe8100aa7f7f7f7f7f7f23
+
+Word HEX VALUES For Compare: = 0x00 0x00 
+
+Bit 32 in word2 0x00  is zero
+FAILED_ICB_DSP_FLASH
+BIT Test Error Word Passed
+
+Bit 33 in word2 0x00  is zero
+FAILED_ICB_FPGA_FLASH
+BIT Test Error Word Passed
+
+Bit 34 in word2 0x00  is zero
+FAILED_GCB_1V2
+BIT Test Error Word Passed
+
+Bit 35 in word2 0x00  is zero
+FAILED_GCB_3V3
+BIT Test Error Word Passed
+
+Bit 36 in word2 0x00  is zero
+FAILED_GCB_5V0
+BIT Test Error Word Passed
+
+Bit 37 in word2 0x00  is zero
+FAILED_ICB_1V2
+BIT Test Error Word Passed
+
+Bit 38 in word2 0x00  is zero
+FAILED_ICB_3V3
+BIT Test Error Word Passed
+
+Bit 39 in word2 0x00  is zero
+RESERVED_4 
+Bit 40 in word2 0x00  is zero
+FAILED_ICB_5V0
+BIT Test Error Word Passed
+
+Bit 41 in word2 0x00  is zero
+FAILED_ICB_15V0
+BIT Test Error Word Passed
+
+Bit 42 in word2 0x00  is zero
+FAILED_GCB_FPGA
+BIT Test Error Word Passed
+
+Bit 43 in word2 0x00  is zero
+FAILED_ICB_FPGA
+BIT Test Error Word Passed
+
+Bit 44 in word2 0x00  is zero
+FAILED_HIGH_SPEED_SPORT
+BIT Test Error Word Passed
+
+Bit 45 in word2 0x00  is zero
+FAILED_AUX_SPORT
+BIT Test Error Word Passed
+
+Bit 46 in word2 0x00  is zero
+FAILED_SW_RESOURCE
+BIT Test Error Word Passed
+
+Bit 47 in word2 0x00  is zero
+RESERVED_5 
+Bit 48 in word2 0x00  is zero
+FAILED_GYRO_EOVP
+BIT Test Error Word Passed
+
+Bit 49 in word2 0x00  is zero
+FAILED_GYRO_EOVN
+BIT Test Error Word Passed
+
+Bit 50 in word2 0x00  is zero
+FAILED_GYRO_X_VOLTS
+BIT Test Error Word Passed
+
+Bit 51 in word2 0x00  is zero
+FAILED_GYRO_Y_VOLTS
+BIT Test Error Word Passed
+
+Bit 52 in word2 0x00  is zero
+FAILED_GYRO_Z_VOLTS
+BIT Test Error Word Passed
+
+Bit 53 in word2 0x00  is zero
+FAILED_ICB_MAG_FIELD
+BIT Test Error Word Passed
+
+Bit 54 in word2 0x00  is zero
+FAILED_ICB_MAG_SR_OFFSET
+BIT Test Error Word Passed
+
+Bit 55 in word2 0x00  is zero
+RESERVED_6 
+Bit 56 in word2 0x00  is zero
+FAILED_GCB_ADC_COMMS
+BIT Test Error Word Passed
+
+Bit 57 in word2 0x00  is zero
+FAILED_MSYNC_EXT
+BIT Test Error Word Passed
+
+BITTEST Test Passed
+ProcessBITTEST: commandStatus = =bittest,0 
+ProcessBITTEST: result = INVALID,=BITTEST,0
+ 
+=rstcfg Test Passed RSTCFG
+
+
+Final test elapsedTime = 1595 seconds
+
+Final test elapsedTime ms = 1594234.54 milliseconds
